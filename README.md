@@ -6,7 +6,7 @@ How to use it
 Step : 1  : Make the html table template
 ----------------------------------------
   <p>
-  <table id="customer_table">
+  < table id="customer_table">
         <thead>
             <tr>
                	<th data-colname="append(firstname,lastname)">Name</th>
@@ -14,7 +14,7 @@ Step : 1  : Make the html table template
 				        <th data-colname="status">Status</th>               												                	
             </tr>
         </thead>
-    </table>
+    </table >
   </p>
 Simply make the table object and call populatedata
 --------------------------------------------------
