@@ -5,17 +5,16 @@ How to use it
 -------------
 Step : 1  : Make the html table template
 ----------------------------------------
-  <p>
   < table id="customer_table">
-        <thead>
-            <tr>
-               	<th data-colname="append(firstname,lastname)">Name</th>
-               	<th data-colname="phone">phone</th>
-				        <th data-colname="status">Status</th>               												                	
-            </tr>
-        </thead>
-    </table >
-  </p>
+        < thead>
+            < tr>
+               	< th data-colname="append(firstname,lastname)">Name</th>
+               	< th data-colname="phone">phone</th>
+		< th data-colname="status">Status</th>               												                	
+            </ tr>
+        </ thead>
+    </ table >
+  
 Simply make the table object and call populatedata
 --------------------------------------------------
   table().createtable("#customer_table")
