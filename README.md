@@ -5,6 +5,7 @@ How to use it
 -------------
 Step : 1  : Make the html table template
 ----------------------------------------
+  <p>
   <table id="customer_table">
         <thead>
             <tr>
@@ -14,14 +15,14 @@ Step : 1  : Make the html table template
             </tr>
         </thead>
     </table>
-
+  </p>
 Simply make the table object and call populatedata
 --------------------------------------------------
   table().createtable("#customer_table")
 				.populatedata(customers)
 					.done()
 
-Sample Data: 
+<b><u>Sample Data:</u></b> 
   var customers = [
     { "firstname" : "John", "lastname" : "Miller", "phone" : "111-456-7890", "status": "active" },
     { "firstname" : "Bob", "lastname" : "Wilson", "phone" : "222-456-7890", "status": "active" },
